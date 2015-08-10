@@ -1,7 +1,58 @@
-html, body {
+body {
+	background: url(../img/table-bg-2.jpg);
+	font-size: 16px;
+	text-align:center;
+	height: 100%;
 	margin: 0;
 	padding: 0;
+	color: #00FF66;
 }
-body {
-	background: url(../img/table-bg.png);
+.container {
+	height: 100%;
 }
+.dices {
+  height: 70%;
+  margin: 100px auto;
+  width: 90%;
+}
+.btn-group {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.btn-group .btn-again, .btn-group .btn-cover {
+  border: 1px solid #00FF66;
+  border-radius: 12px;
+  padding: 10px;
+  width: 45%;
+  margin: 0 9px;
+}
+
+.dice {
+	background-image: url(../img/dices.gif);
+	width: 75px;
+	height: 75px;
+  	display: inline-block;
+  	margin: 10px;
+}
+
+.dice-1 {
+  background-position: -15px -10px;
+}
+.dice-2 {
+  background-position: 161px -10px;
+}
+.dice-3 {
+  background-position: 82px -10px;
+}
+.dice-4 {
+  background-position: -15px -93px;
+}
+.dice-5 {
+  background-position: 82px -93px;
+}
+.dice-6 {
+  background-position: 161px -93px;
+}
+
